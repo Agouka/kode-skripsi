@@ -27,8 +27,17 @@ Model akan menjelaskan hyperparameter dan lainnya berhubungan dengan model.
 **Tujuan**: Untuk prediksi lokasi KTP.
 
 - Arsitektur: YOLOv8
-- Dataset: 1350 gambar
-- Performance:
-  - Box mAP50: 0.995
-  - Mask mAP50: 0.995
+- Dataset: 1350 gamba
+- Hyperparameter:
+  - epochs = 30,
+  - imgsz = 640,
+  - batch = 32,
+  - optimizer = adamW(lr=0.002, momentum=0.9),
+  - dropout = 0.25,
 - Format File: PyTorch (.pt) dan NCNN (.ncnn)
+
+## Hasil
+
+Hasil akan menjelaskan output dari model.
+- Box mAP50: 0.995
+- Mask mAP50: 0.995
