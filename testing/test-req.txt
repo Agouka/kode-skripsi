@@ -1,0 +1,7 @@
+opencv-python==4.10.0.84
+pillow==11.0.0
+ultralytics==8.3.34
+easyocr==1.7.2
+pytesseract==0.3.13
+numpy==2.0.2
+psutil==6.1.0
