@@ -1,0 +1,7 @@
+pandas==2.2.3
+numpy==2.0.2
+matplotlib==3.9.2
+seaborn==0.13.2
+ultralytics==8.3.34
+opencv-python==4.10.0.84
+pillow==11.0.0
